@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 /* shared starts*/
@@ -146,17 +147,19 @@ button {
 }
 
 /* Contribution  */
-.contribution-section1,.contribution-section2,.contribution-section3 {
+.contribution-section1,
+.contribution-section2,
+.contribution-section3 {
     display: flex;
     align-items: center;
     gap: 98.83px;
     margin-bottom: 32px;
     padding: 48px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
 }
 
-.contribution-section2>.contribution-content{
+.contribution-section2>.contribution-content {
     margin: 0 32px;
     width: 477px;
 }
@@ -164,16 +167,71 @@ button {
 /* why-web-Development-section-container ends */
 
 /* My Inspiration Starts */
-.my-inspiration{
+.my-inspiration {
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 149px;
 }
-.my-inspiration .heading,.content{
-    padding-right:144px ;
+
+.my-inspiration .heading,
+.content {
+    padding-right: 144px;
     padding-left: 144px;
 }
+
 iframe {
     padding: 32px !important;
     border-radius: 16px !important;
 }
+
 /* My Inspiration Ends */
+
+/* Current Target starts */
+.current-target-section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.current-target-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 364px;
+    height: 300px; */
+}
+
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 400px;
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 400px;
+}
+
+.js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 400px;
+}
+
+.box-heading {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.box-content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
