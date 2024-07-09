@@ -136,6 +136,7 @@ button {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.025);
     padding: 80px 97px 80px 97px;
+    margin-bottom: 88px;
     /* border: 2px solid; */
 }
 
@@ -161,3 +162,18 @@ button {
 }
 
 /* why-web-Development-section-container ends */
+
+/* My Inspiration Starts */
+.my-inspiration{
+    width: 1140px;
+    margin: 0 auto;
+}
+.my-inspiration .heading,.content{
+    padding-right:144px ;
+    padding-left: 144px;
+}
+iframe {
+    padding: 32px !important;
+    border-radius: 16px !important;
+}
+/* My Inspiration Ends */
