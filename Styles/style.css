@@ -60,6 +60,12 @@ body {
     font-weight: 500;
 }
 
+body a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* shared Ends */
 
 /* Nav Section starts */
@@ -244,3 +250,29 @@ iframe {
     font-weight: 400;
     margin-top: 8px;
 }
+
+/* Current Target Ends */
+
+
+/* my-next-target-container Starts */
+.my-next-target-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.next-target-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.next-target-content {
+    width: 941.22px;
+    height: 139px;
+    margin-left: 24px;
+}
+
+/* my-next-target-container Ends */
