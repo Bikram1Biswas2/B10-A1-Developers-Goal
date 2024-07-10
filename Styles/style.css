@@ -338,3 +338,39 @@ iframe {
 }
 
 /* need support ends */
+
+/* Footer Starts */
+.footer-section {
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.footer-content {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200.01px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Ends */
