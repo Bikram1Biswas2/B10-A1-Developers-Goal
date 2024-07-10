@@ -180,8 +180,19 @@ button {
 }
 
 iframe {
-    padding: 32px !important;
-    border-radius: 16px !important;
+    padding: 25px 0;
+    flex: none;
+    margin: 10px 0px;
+}
+
+
+.video-box {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* My Inspiration Ends */
@@ -196,8 +207,6 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* width: 364px;
-    height: 300px; */
 }
 
 .html {
